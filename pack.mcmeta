@@ -1,0 +1,19 @@
+{
+  "pack": {
+    "pack_format": 6,
+    "description": [
+      {
+        "text":"A datapack by "
+      },
+      {
+        "text":"IceFreez3r",
+        "color":"aqua",
+        "bold":true
+      },
+      {
+        "text":"\nPlay with one Heart!",
+        "bold":true
+      }
+    ]
+  }
+}
