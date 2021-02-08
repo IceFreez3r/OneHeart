@@ -9,5 +9,6 @@ function oneheart:main/fish
 function oneheart:main/husk
 function oneheart:main/item
 function oneheart:main/squid
+function oneheart:main/spider
 function oneheart:main/villager
 function oneheart:main/zombie

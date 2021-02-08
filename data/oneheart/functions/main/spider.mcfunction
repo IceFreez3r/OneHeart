@@ -1,0 +1,1 @@
+execute as @e[tag=!Cocktail] run data merge entity @s {Tags:["Cocktail"],ActiveEffects:[{Id:1b,Amplifier:0b,Duration:2400,ShowParticles:1b},{Id:5b,Amplifier:0b,Duration:2400,ShowParticles:1b},{Id:10b,Amplifier:0b,Duration:2400,ShowParticles:1b},{Id:14b,Amplifier:0b,Duration:2400,ShowParticles:1b}]}
