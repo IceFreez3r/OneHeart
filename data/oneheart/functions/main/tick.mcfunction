@@ -1,6 +1,5 @@
-execute as @a[tag=!OneHeart] run attribute @s minecraft:generic.max_health base set 2
-tag @a[tag=!OneHeart] add OneHeart
-effect give @a[scores={Health=3..}] minecraft:wither 1 0 true
+execute as @a[nbt=!{Attributes:[{Base:2.0d,Name:"minecraft:generic.max_health"}]}] run attribute @s minecraft:generic.max_health base set 2
+effect give @a[scores={Health=3..}] minecraft:wither 1 1 true
 
 scoreboard players remove @e[scores={Cooldown=1..}] Cooldown 1
 
