@@ -1,1 +1,6 @@
-execute as @e[tag=!Cocktail] run data merge entity @s {Tags:["Cocktail"],ActiveEffects:[{Id:1b,Amplifier:0b,Duration:2400,ShowParticles:1b},{Id:5b,Amplifier:0b,Duration:2400,ShowParticles:1b},{Id:10b,Amplifier:0b,Duration:2400,ShowParticles:1b},{Id:14b,Amplifier:0b,Duration:2400,ShowParticles:1b}]}
+# Potion Cocktail
+execute as @e[type=spider] unless score @s Cooldown matches 1.. run effect give @s invisibility 15 0 false
+execute as @e[type=spider] unless score @s Cooldown matches 1.. run effect give @s regeneration 15 0 false
+execute as @e[type=spider] unless score @s Cooldown matches 1.. run effect give @s speed 15 0 false
+execute as @e[type=spider] unless score @s Cooldown matches 1.. run effect give @s strength 15 0 false
+execute as @e[type=spider] unless score @s Cooldown matches 1.. run scoreboard players set @s Cooldown 1200
