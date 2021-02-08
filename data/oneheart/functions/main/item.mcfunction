@@ -1,3 +1,3 @@
 #Faster Despawn
-data merge @e[type=item,tag=!FastDespawn] {Age:4800}
+execute as @e[type=item,tag=!FastDespawn] run data merge entity @s {Age:4800}
 tag @e[type=item,tag=!FastDespawn] add FastDespawn
