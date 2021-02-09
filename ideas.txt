@@ -1,2 +1,6 @@
 Reduce Irongolemloot to Nuggets
 Get Notchapple when on fire with a super small chance
+Invisible Ghasts
+All [Animal type] are forever babys
+No Gravity
+Bedrock disappears under feets -> Tp Players below Y 0 to Y 256
