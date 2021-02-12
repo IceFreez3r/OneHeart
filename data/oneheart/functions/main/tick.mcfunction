@@ -12,6 +12,7 @@ function oneheart:entities/ghast
 function oneheart:entities/husk
 function oneheart:entities/item
 function oneheart:entities/piglin
+function oneheart:entities/polar_bear
 function oneheart:entities/sheep
 function oneheart:entities/silverfish
 function oneheart:entities/spider
