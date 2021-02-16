@@ -11,6 +11,7 @@ function oneheart:entities/fish
 function oneheart:entities/ghast
 function oneheart:entities/husk
 function oneheart:entities/item
+function oneheart:entities/later_burn
 function oneheart:entities/piglin
 function oneheart:entities/polar_bear
 function oneheart:entities/sheep

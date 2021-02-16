@@ -9,3 +9,5 @@ gamerule naturalRegeneration false
 gamerule randomTickSpeed 6
 gamerule spawnRadius 50
 gamerule universalAnger true
+
+difficulty hard
