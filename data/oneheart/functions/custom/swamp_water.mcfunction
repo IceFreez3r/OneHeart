@@ -6,7 +6,7 @@ execute as @a[scores={SwampWater=1..}] at @s unless predicate oneheart:in_swamp_
 # Hunger 1: 10 Seconds
 # Poison 1: 20 Seconds
 # Nausea 1: 30 Seconds
-effect give @a[scores={SwampWater=60..}] slowness 10 0 false
-effect give @a[scores={SwampWater=200..}] hunger 10 0 false
-effect give @a[scores={SwampWater=400..}] poison 10 0 false
-effect give @a[scores={SwampWater=1200..}] nausea 10 0 false
+effect give @a[scores={SwampWater=3..}] slowness 10 0 false
+effect give @a[scores={SwampWater=10..}] hunger 10 0 false
+effect give @a[scores={SwampWater=20..}] poison 10 0 false
+effect give @a[scores={SwampWater=30..}] nausea 10 0 false

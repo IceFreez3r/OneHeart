@@ -19,4 +19,6 @@ scoreboard objectives add BedrockBreak dummy
 scoreboard objectives add Daytime dummy
 scoreboard objectives add SwampWater dummy
 
+function oneheart:main/second
+
 tellraw @a[gamemode=creative] {"text":"Reload of namespace \"oneheart\" from the datapack \"OneHeart\" done!"}

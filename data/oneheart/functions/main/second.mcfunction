@@ -8,4 +8,4 @@ function oneheart:entities/villager
 
 function oneheart:custom/swamp_water
 
-schedule function oneheart:main/second
+schedule function oneheart:main/second 1s
