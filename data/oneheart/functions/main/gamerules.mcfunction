@@ -11,3 +11,6 @@ gamerule spawnRadius 50
 gamerule universalAnger true
 
 difficulty hard
+
+scoreboard players set %EndermanHealth EndermanKills 500
+scoreboard players set %EndermanHealthPlus EndermanKills 200

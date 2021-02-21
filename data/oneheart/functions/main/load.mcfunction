@@ -13,12 +13,14 @@ scoreboard objectives add TimeSinceDeath custom:time_since_death
 
 scoreboard objectives add DragonKills killed:ender_dragon
 scoreboard objectives add WitherKills killed:wither
+scoreboard objectives add EndermanKills killed:enderman
 
 scoreboard objectives add Cooldown dummy
 scoreboard objectives add BedrockBreak dummy
 scoreboard objectives add Daytime dummy
 scoreboard objectives add SwampWater dummy
 
+function oneheart:main/constant
 function oneheart:main/second
 
 tellraw @a[gamemode=creative] {"text":"Reload of namespace \"oneheart\" from the datapack \"OneHeart\" done!"}
