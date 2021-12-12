@@ -6,7 +6,7 @@ gamerule forgiveDeadPlayers false
 gamerule keepInventory false
 gamerule mobGriefing true
 gamerule naturalRegeneration false
-gamerule randomTickSpeed 6
+gamerule randomTickSpeed 3
 gamerule spawnRadius 50
 gamerule universalAnger true
 

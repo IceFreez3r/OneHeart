@@ -17,6 +17,7 @@ function oneheart:entities/squid
 function oneheart:entities/zombie
 
 function oneheart:blocks/bedrock
+function oneheart:blocks/bed/tick
 function oneheart:blocks/magma_block/tick
 function oneheart:blocks/spawner/tick
 function oneheart:main/fire
