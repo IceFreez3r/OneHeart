@@ -1,3 +1,6 @@
 {
-  "values": ["oneheart:main/load"]
+  "values": [
+      "math:load",
+      "oneheart:main/load"
+  ]
 }
