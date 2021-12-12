@@ -1,34 +1,34 @@
 [
-  {
-    "condition": "minecraft:alternative",
-    "terms": [
-      {
-        "condition": "minecraft:location_check",
+    {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                    "biome": "minecraft:swamp_hills",
+                    "fluid": {
+                        "tag": "minecraft:water"
+                    }
+                },
+                "entity": "this"
+            },
+            {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                    "biome": "minecraft:swamp",
+                    "fluid": {
+                        "tag": "minecraft:water"
+                    }
+                },
+                "entity": "this"
+            }
+        ],
         "predicate": {
-          "biome": "minecraft:swamp_hills",
-          "fluid": {
-            "tag": "minecraft:water"
-          }
+            "location": {
+                "biome": "minecraft:swamp"
+            },
+            "biome": "minecraft:swamp"
         },
         "entity": "this"
-      },
-      {
-        "condition": "minecraft:location_check",
-        "predicate": {
-          "biome": "minecraft:swamp",
-          "fluid": {
-            "tag": "minecraft:water"
-          }
-        },
-        "entity": "this"
-      }
-    ],
-    "predicate": {
-      "location": {
-        "biome": "minecraft:swamp"
-      },
-      "biome": "minecraft:swamp"
-    },
-    "entity": "this"
-  }
+    }
 ]
