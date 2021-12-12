@@ -8,7 +8,7 @@ scoreboard objectives add FallDistance custom:fall_one_cm
 scoreboard objectives add LeaveGame custom:leave_game
 scoreboard objectives add MobKills custom:mob_kills
 scoreboard objectives add PlayerKills custom:player_kills
-scoreboard objectives add PlayOneMin custom:play_one_minute
+scoreboard objectives add PlayTime custom:play_time
 scoreboard objectives add TimeSinceDeath custom:time_since_death
 
 scoreboard objectives add DragonKills killed:ender_dragon
