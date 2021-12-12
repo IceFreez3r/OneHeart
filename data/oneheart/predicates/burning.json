@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:time_check",
+    "value": {
+        "min": {
+            "target": {
+                "name": "%StartBurn",
+                "type": "minecraft:fixed"
+            },
+            "score": "Daytime",
+            "type": "minecraft:score"
+        },
+        "max": {
+            "target": {
+                "name": "%StopBurn",
+                "type": "minecraft:fixed"
+            },
+            "score": "Daytime",
+            "type": "minecraft:score"
+        }
+    },
+    "chances": [],
+    "predicate": {},
+    "entity": "this",
+    "period": 24000
+}

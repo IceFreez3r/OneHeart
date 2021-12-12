@@ -10,7 +10,7 @@ function oneheart:entities/creeper
 function oneheart:entities/ghast
 function oneheart:entities/husk
 function oneheart:entities/item
-function oneheart:entities/later_burn
+function oneheart:entities/burning/tick
 function oneheart:entities/sheep
 function oneheart:entities/silverfish
 function oneheart:entities/squid
