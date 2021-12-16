@@ -1,5 +1,4 @@
-# Swampwater ist dangerous
-# Slowtickcandidate
+# Swampwater is dangerous
 execute as @a at @s if predicate oneheart:in_swamp_water run scoreboard players add @s SwampWater 1
 execute as @a[scores={SwampWater=1..}] at @s unless predicate oneheart:in_swamp_water run scoreboard players remove @s SwampWater 2
 # Slowness 1: 3 Seconds
