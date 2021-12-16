@@ -8,6 +8,7 @@ function oneheart:entities/angry_mobs
 function oneheart:entities/arrow
 function oneheart:entities/axolotl/tick
 function oneheart:entities/creeper
+function oneheart:entities/drowned
 function oneheart:entities/ghast
 function oneheart:entities/husk
 function oneheart:entities/item
