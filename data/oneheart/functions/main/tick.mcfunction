@@ -6,6 +6,7 @@ scoreboard players remove @e[scores={Cooldown=1..}] Cooldown 1
 
 function oneheart:entities/angry_mobs
 function oneheart:entities/arrow
+function oneheart:entities/axolotl/tick
 function oneheart:entities/creeper
 function oneheart:entities/ghast
 function oneheart:entities/husk
