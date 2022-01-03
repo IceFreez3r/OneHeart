@@ -7,6 +7,8 @@ function oneheart:entities/polar_bear
 function oneheart:entities/spider
 function oneheart:entities/villager
 
+function oneheart:blocks/bedrock/second
+
 function oneheart:custom/swamp_water
 
 schedule function oneheart:main/second 1s
