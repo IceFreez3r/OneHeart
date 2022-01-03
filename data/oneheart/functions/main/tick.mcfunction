@@ -25,4 +25,5 @@ function oneheart:blocks/bed/tick
 function oneheart:blocks/spawner/tick
 function oneheart:main/fire
 
+function oneheart:custom/sunburn/tick
 function oneheart:custom/void

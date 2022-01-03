@@ -20,6 +20,7 @@ scoreboard objectives add Cooldown dummy
 scoreboard objectives add Daytime dummy
 scoreboard objectives add Launch dummy
 scoreboard objectives add SleepTimer dummy
+scoreboard objectives add Sunburn dummy
 scoreboard objectives add SwampWater dummy
 
 function oneheart:main/constant

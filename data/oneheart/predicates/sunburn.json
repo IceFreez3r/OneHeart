@@ -1,0 +1,37 @@
+[
+    {
+        "condition": "minecraft:weather_check",
+        "raining": false,
+        "thundering": false
+    },
+    {
+        "condition": "minecraft:time_check",
+        "value": {
+            "min": {
+                "target": {
+                    "name": "%StartSunburn",
+                    "type": "minecraft:fixed"
+                },
+                "score": "Daytime",
+                "type": "minecraft:score"
+            },
+            "max": {
+                "target": {
+                    "name": "%StopSunburn",
+                    "type": "minecraft:fixed"
+                },
+                "score": "Daytime",
+                "type": "minecraft:score"
+            }
+        },
+        "period": 24000
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "oneheart:hot_biome"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "oneheart:skyaccess"
+    }
+]

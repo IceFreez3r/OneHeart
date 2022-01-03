@@ -18,8 +18,5 @@
             "type": "minecraft:score"
         }
     },
-    "chances": [],
-    "predicate": {},
-    "entity": "this",
     "period": 24000
 }
