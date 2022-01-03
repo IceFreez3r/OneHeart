@@ -7,6 +7,7 @@ function oneheart:entities/polar_bear
 function oneheart:entities/slime
 function oneheart:entities/spider
 function oneheart:entities/villager
+function oneheart:entities/witch
 
 function oneheart:blocks/bedrock/second
 function oneheart:blocks/glow_lichen/second
