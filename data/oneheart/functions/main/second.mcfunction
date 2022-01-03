@@ -1,6 +1,6 @@
 # Runs every second
 function oneheart:entities/cow
-function oneheart:entities/enderman_check
+function oneheart:entities/enderman/second
 function oneheart:entities/fish
 function oneheart:entities/piglin
 function oneheart:entities/polar_bear
