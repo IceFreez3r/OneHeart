@@ -4,6 +4,7 @@ function oneheart:entities/enderman/second
 function oneheart:entities/fish
 function oneheart:entities/piglin
 function oneheart:entities/polar_bear
+function oneheart:entities/slime
 function oneheart:entities/spider
 function oneheart:entities/villager
 
