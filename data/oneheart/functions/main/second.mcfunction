@@ -9,6 +9,7 @@ function oneheart:entities/villager
 
 function oneheart:blocks/bedrock/second
 function oneheart:blocks/glow_lichen/second
+function oneheart:blocks/magma_block/second
 
 function oneheart:custom/swamp_water
 
