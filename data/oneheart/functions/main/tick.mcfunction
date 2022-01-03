@@ -4,6 +4,8 @@ effect give @a[gamemode=survival,scores={Health=3..}] minecraft:wither 1 1 true
 
 scoreboard players remove @e[scores={Cooldown=1..}] Cooldown 1
 
+execute as @a[gamemode=survival,scores={DeathCountHidden=1..}] run function oneheart:main/death
+
 function oneheart:entities/angry_mobs
 function oneheart:entities/arrow
 function oneheart:entities/axolotl/tick

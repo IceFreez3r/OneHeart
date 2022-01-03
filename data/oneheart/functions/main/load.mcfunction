@@ -1,6 +1,7 @@
 scoreboard objectives add Health health
 scoreboard objectives add Level level
 scoreboard objectives add DeathCount deathCount
+scoreboard objectives add DeathCountHidden deathCount
 scoreboard objectives add Food food
 scoreboard objectives add DamageDealt custom:damage_dealt
 scoreboard objectives add DamageTaken custom:damage_taken
