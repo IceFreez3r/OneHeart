@@ -22,3 +22,5 @@ scoreboard players set %EndermanHealthPlus EndermanKills 200
 
 scoreboard objectives setdisplay list Health
 scoreboard objectives setdisplay belowName DeathCount
+
+data modify storage oneheart:armor Armor set value [{Amount:0,Slot:"head",AttributeName:"minecraft:generic.max_health",Operation:0,UUID:[I;-1589253972,2136230208,-1145538330,1661406212],Name:"set_bonus_hp"}]

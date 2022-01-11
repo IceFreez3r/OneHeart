@@ -1,0 +1,29 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "oneheart:armor/leather"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "oneheart:armor/chainmail"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "oneheart:armor/iron"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "oneheart:armor/gold"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "oneheart:armor/diamond"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "oneheart:armor/netherite"
+        }
+    ]
+}

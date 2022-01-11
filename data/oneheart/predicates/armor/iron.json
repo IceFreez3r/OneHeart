@@ -1,0 +1,61 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "head": {
+                        "items": [
+                            "minecraft:iron_helmet"
+                        ]
+                    },
+                    "chest": {
+                        "items": [
+                            "minecraft:iron_chestplate"
+                        ]
+                    },
+                    "legs": {
+                        "items": [
+                            "minecraft:iron_leggings"
+                        ]
+                    },
+                    "feet": {
+                        "items": [
+                            "minecraft:iron_boots"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "head": {
+                        "items": [
+                            "minecraft:turtle_helmet"
+                        ]
+                    },
+                    "chest": {
+                        "items": [
+                            "minecraft:iron_chestplate"
+                        ]
+                    },
+                    "legs": {
+                        "items": [
+                            "minecraft:iron_leggings"
+                        ]
+                    },
+                    "feet": {
+                        "items": [
+                            "minecraft:iron_boots"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
