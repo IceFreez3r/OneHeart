@@ -7,6 +7,7 @@ function oneheart:custom/swamp_water
 
 function oneheart:entities/cow
 function oneheart:entities/enderman/second
+function oneheart:entities/ender_dragon
 function oneheart:entities/fish
 function oneheart:entities/piglin
 function oneheart:entities/polar_bear
