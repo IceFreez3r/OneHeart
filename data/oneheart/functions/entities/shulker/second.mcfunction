@@ -1,0 +1,1 @@
+execute as @e[type=shulker,tag=!Colored] run function oneheart:entities/shulker/color
