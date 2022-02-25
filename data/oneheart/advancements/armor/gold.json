@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_helmet"
+        },
+        "title": {
+            "translate": "advancements.oneheart.golden_armor.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.golden_armor.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:armor/diamond",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "oneheart:armor/gold"
+                    }
+                ]
+            }
+        }
+    }
+}

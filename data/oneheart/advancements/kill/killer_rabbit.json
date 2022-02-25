@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_carrot"
+        },
+        "title": {
+            "translate": "advancements.oneheart.killer_rabbit.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.killer_rabbit.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:kill/chiller_rabbit",
+    "criteria": {
+        "killer_rabbit": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{RabbitType:99}"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

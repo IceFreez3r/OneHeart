@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_helmet"
+        },
+        "title": {
+            "translate": "advancements.oneheart.diamond_armor.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.diamond_armor.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:armor/iron",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "oneheart:armor/diamond"
+                    }
+                ]
+            }
+        }
+    }
+}

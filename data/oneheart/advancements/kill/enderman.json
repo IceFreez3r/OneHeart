@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_pearl"
+        },
+        "title": {
+            "translate": "advancements.oneheart.kill_enderman.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.kill_enderman.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:root",
+    "criteria": {
+        "enderman": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "oneheart:player_has_bonus_health"
+                    }
+                ],
+                "entity": {
+                    "type": "minecraft:enderman"
+                }
+            }
+        }
+    }
+}

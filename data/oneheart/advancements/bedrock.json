@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": {
+            "translate": "advancements.oneheart.bedrock.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.bedrock.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:first_death",
+    "criteria": {
+        "Sunburn": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

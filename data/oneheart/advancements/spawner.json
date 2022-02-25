@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "title": {
+            "translate": "advancements.oneheart.spawner.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.spawner.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "oneheart:first_death",
+    "criteria": {
+        "Sunburn": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

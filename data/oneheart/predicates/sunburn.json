@@ -28,7 +28,7 @@
     },
     {
         "condition": "minecraft:reference",
-        "name": "oneheart:hot_biome"
+        "name": "oneheart:biome/hot"
     },
     {
         "condition": "minecraft:reference",

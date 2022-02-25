@@ -1,0 +1,49 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:invisibility\"}"
+        },
+        "title": {
+            "translate": "advancements.oneheart.kill_invisible_ghast.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.kill_invisible_ghast.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:kill/invisible_spider",
+    "criteria": {
+        "kill_ghast": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "stepping_on": {
+                                "block": {
+                                    "blocks": [
+                                        "minecraft:air"
+                                    ]
+                                }
+                            },
+                            "effects": {
+                                "minecraft:invisibility": {}
+                            }
+                        }
+                    }
+                ],
+                "entity": {
+                    "type": "minecraft:ghast",
+                    "effects": {
+                        "minecraft:invisibility": {}
+                    }
+                }
+            }
+        }
+    }
+}

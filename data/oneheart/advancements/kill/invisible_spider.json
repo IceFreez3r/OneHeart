@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{Potion:\"minecraft:invisibility\"}"
+        },
+        "title": {
+            "translate": "advancements.oneheart.kill_invisible_spider.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.kill_invisible_spider.description"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:root",
+    "criteria": {
+        "kill_spider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "effects": {
+                        "minecraft:invisibility": {}
+                    }
+                },
+                "entity": {
+                    "type": "minecraft:spider",
+                    "effects": {
+                        "minecraft:invisibility": {}
+                    }
+                }
+            }
+        }
+    }
+}

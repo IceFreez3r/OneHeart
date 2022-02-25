@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blue_shulker_box"
+        },
+        "title": {
+            "translate": "advancements.oneheart.colorful_shulkers.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.colorful_shulkers.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:root",
+    "criteria": {
+        "Endcity": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "endcity"
+                }
+            }
+        }
+    }
+}

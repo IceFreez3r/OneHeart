@@ -1,0 +1,33 @@
+{
+    "parent": "oneheart:powder_snow",
+    "criteria": {
+        "powder_snow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "oneheart:biome/snowy"
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:reference",
+                            "name": "oneheart:armor/leather"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:powder_snow_bucket"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "oneheart:blocks/powder_snow"
+    }
+}

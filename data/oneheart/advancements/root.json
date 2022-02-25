@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": "Oneheart",
+        "description": {
+            "translate": "advancements.oneheart.root.description"
+        },
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "oneheart:textures/gui/advancements/backgrounds/totem_of_undying.png"
+    },
+    "criteria": {
+        "Impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

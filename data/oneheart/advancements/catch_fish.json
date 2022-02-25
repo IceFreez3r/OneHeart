@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fishing_rod"
+        },
+        "title": {
+            "translate": "advancements.oneheart.catch_fish.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.catch_fish.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:root",
+    "criteria": {
+        "fish": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "entity": [],
+                "item": {
+                    "tag": "oneheart:to_pufferfish"
+                }
+            }
+        }
+    }
+}

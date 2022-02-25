@@ -1,0 +1,35 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:poppy"
+        },
+        "title": {
+            "translate": "advancements.oneheart.flower.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.flower.description"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "oneheart:armor/netherite",
+    "criteria": {
+        "flower": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "oneheart:holds_flower"
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "oneheart:armor/any"
+                    }
+                ]
+            }
+        }
+    }
+}

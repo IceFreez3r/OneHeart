@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:air"
+        },
+        "title": {
+            "translate": "advancements.oneheart.void.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.void.description"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:bedrock",
+    "criteria": {
+        "Void": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "y": {
+                            "min": -100,
+                            "max": -64
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

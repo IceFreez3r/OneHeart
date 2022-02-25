@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:powder_snow_bucket"
+        },
+        "title": {
+            "translate": "advancements.oneheart.powder_snow.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.powder_snow.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "oneheart:root",
+    "criteria": {
+        "powder_snow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "oneheart:biome/snowy"
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "oneheart:armor/leather"
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:powder_snow_bucket"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

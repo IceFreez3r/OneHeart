@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_helmet"
+        },
+        "title": {
+            "translate": "advancements.oneheart.iron_armor.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.iron_armor.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:armor/leather",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "oneheart:armor/iron"
+                    }
+                ]
+            }
+        }
+    }
+}

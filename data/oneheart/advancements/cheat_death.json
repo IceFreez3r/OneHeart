@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {
+            "translate": "advancements.oneheart.cheat_death.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.cheat_death.description"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:first_death",
+    "criteria": {
+        "Totem": {
+            "trigger": "minecraft:used_totem"
+        }
+    }
+}

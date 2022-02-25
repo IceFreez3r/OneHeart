@@ -5,3 +5,5 @@ summon marker ~ ~ ~ {Tags:["sunburn","new"]}
 scoreboard players set @e[type=marker,tag=sunburn,tag=new] Cooldown 10
 tag @e[type=marker,tag=sunburn,tag=new] remove new
 effect give @s weakness 20 0 true
+
+advancement grant @s[advancements={oneheart:sunburn=false}] only oneheart:sunburn
