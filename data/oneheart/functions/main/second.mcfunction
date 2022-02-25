@@ -3,6 +3,7 @@ function oneheart:blocks/bedrock/second
 function oneheart:blocks/glow_lichen/second
 function oneheart:blocks/magma_block/second
 
+function oneheart:custom/fire
 function oneheart:custom/swamp_water
 
 function oneheart:entities/cow

@@ -5,7 +5,6 @@ function oneheart:blocks/bedrock
 function oneheart:blocks/bed/tick
 function oneheart:blocks/spawner/tick
 
-function oneheart:custom/fire
 function oneheart:custom/sunburn/tick
 function oneheart:custom/void
 

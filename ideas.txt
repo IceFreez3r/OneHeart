@@ -4,6 +4,7 @@ unbalanced diet
 Destroy glow lichen
 
 Transform striders riding other striders to piglins with crossbows
+Remake Fire Loot
 
 Advancement Tree
     OP-Apple Fire
