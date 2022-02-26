@@ -1,8 +1,13 @@
-Monsters start to burn later -> based on mob kills?
-unbalanced diet
-
-Destroy glow lichen
-
 Transform striders riding other striders to piglins with crossbows
+    possible?
 
+Summon Hoglin when standing on a warped fungus
+    Warning
 
+Add potions/golden apples to loot tables
+    Healing
+    Resistance
+    Turtle Master
+    Absorption
+
+Blazes may only drop blazepowder sometimes instead
