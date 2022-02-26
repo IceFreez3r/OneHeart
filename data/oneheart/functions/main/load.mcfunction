@@ -28,4 +28,4 @@ scoreboard objectives add TotalHealth dummy
 function oneheart:main/constant
 function oneheart:main/second
 
-tellraw @a[gamemode=creative] {"text":"Reload of namespace \"oneheart\" from the datapack \"OneHeart\" done!"}
+tellraw @a[gamemode=creative] {"translate":"oneheart.chat.reload"}
