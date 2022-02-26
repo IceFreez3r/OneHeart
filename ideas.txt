@@ -6,5 +6,3 @@ Destroy glow lichen
 Transform striders riding other striders to piglins with crossbows
 
 
-Filling a bucket with powder snow in a cold biome clears the bucket again
-    current implementation needs 1.18.2

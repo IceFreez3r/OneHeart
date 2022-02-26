@@ -4,10 +4,10 @@
             "item": "minecraft:golden_carrot"
         },
         "title": {
-            "translate": "advancements.oneheart.killer_rabbit.title"
+            "translate": "advancements.oneheart.kill_killer_rabbit.title"
         },
         "description": {
-            "translate": "advancements.oneheart.killer_rabbit.description"
+            "translate": "advancements.oneheart.kill_killer_rabbit.description"
         },
         "frame": "task",
         "show_toast": true,
