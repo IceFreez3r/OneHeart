@@ -1,16 +1,167 @@
 {
+    "type": "minecraft:advancement_reward",
     "pools": [
         {
             "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:empty",
+                    "weight": 4534
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:blaze_powder"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:blaze_rod"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 4,
+                    "name": "minecraft:golden_apple"
+                },
+                {
+                    "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:enchanted_golden_apple"
                 },
                 {
-                    "type": "empty",
-                    "weight": 499
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:flint"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:flint_and_steel",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": {
+                                    "min": 0,
+                                    "max": 1
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 7,
+                    "name": "minecraft:fire_charge"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:magma_cream"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 6,
+                    "name": "minecraft:magma_block"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 8,
+                    "name": "minecraft:fire_coral"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:fire_coral_block"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 8,
+                    "name": "minecraft:fire_coral_fan"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:tnt"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 9,
+                    "name": "minecraft:gunpowder"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:lava_bucket"
+                },
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "weight": 2,
+                            "name": "minecraft:book",
+                            "functions": [
+                                {
+                                    "function": "minecraft:enchant_randomly",
+                                    "enchantments": [
+                                        "minecraft:fire_aspect"
+                                    ]
+                                }
+                            ],
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:random_chance",
+                                    "chance": 0.33
+                                }
+                            ]
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "weight": 2,
+                            "name": "minecraft:book",
+                            "functions": [
+                                {
+                                    "function": "minecraft:enchant_randomly",
+                                    "enchantments": [
+                                        "minecraft:fire_protection"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:campfire"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:soul_campfire"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "oneheart:potion/fire_resistance"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 7,
+                    "name": "oneheart:firework_rocket"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "translate": "oneheart.lore.fire_luck"
+                        }
+                    ]
                 }
             ]
         }
