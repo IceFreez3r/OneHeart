@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Skull\\\"}\"},SkullOwner:{Id:[I;2032112677,-1263385123,-1520870564,1759387119],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhkMDlkYmIyZWVhNTAyZjE4YTg0OTY0OTFiM2ZjYzA3Y2Q3N2I1OWUzNmY0OGZiYTMyYWEzNzMzNTNjZDA1MiJ9fX0=\"}]}}}"
+        },
+        "title": {
+            "translate": "advancements.oneheart.die_10_times.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.die_10_times.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:die/1_time",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -13,7 +13,7 @@
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "oneheart:first_death",
+    "parent": "oneheart:die/1_time",
     "criteria": {
         "Sunburn": {
             "trigger": "minecraft:impossible"
