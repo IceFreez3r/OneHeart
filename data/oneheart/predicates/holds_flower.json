@@ -7,7 +7,7 @@
             "predicate": {
                 "equipment": {
                     "mainhand": {
-                        "tag": "minecraft:flowers"
+                        "tag": "oneheart:flowers"
                     }
                 }
             }
@@ -18,7 +18,7 @@
             "predicate": {
                 "equipment": {
                     "offhand": {
-                        "tag": "minecraft:flowers"
+                        "tag": "oneheart:flowers"
                     }
                 }
             }
