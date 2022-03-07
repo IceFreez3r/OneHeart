@@ -14,6 +14,7 @@ function oneheart:entities/axolotl/tick
 function oneheart:entities/creeper
 function oneheart:entities/drowned
 function oneheart:entities/ghast
+function oneheart:entities/glow_squid
 function oneheart:entities/husk
 function oneheart:entities/item/tick
 function oneheart:entities/burning/tick
