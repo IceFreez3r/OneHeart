@@ -1,18 +1,26 @@
 {
   "pack": {
-    "pack_format": 8,
+    "pack_format": 9,
     "description": [
       {
-        "text":"A datapack by "
+        "text": "Play with one Heart!",
+        "bold": true
       },
       {
-        "text":"IceFreez3r",
-        "color":"aqua",
-        "bold":true
+        "text": "\nA datapack by "
       },
       {
-        "text":"\nPlay with one Heart!",
-        "bold":true
+        "text": "IceFreez3r",
+        "color": "aqua",
+        "bold": true
+      },
+      {
+        "text":"\nSupported by "
+      },
+      {
+        "text": "Z3krom991",
+        "color": "#B0B0B0",
+        "bold": true
       }
     ]
   }

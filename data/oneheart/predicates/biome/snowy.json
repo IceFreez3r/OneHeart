@@ -48,6 +48,12 @@
             "predicate": {
                 "biome": "minecraft:frozen_peaks"
             }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "minecraft:frozen_ocean"
+            }
         }
     ]
 }

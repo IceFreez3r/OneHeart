@@ -9,7 +9,6 @@ gamerule forgiveDeadPlayers false
 gamerule freezeDamage true
 gamerule keepInventory false
 gamerule mobGriefing true
-gamerule naturalRegeneration false
 gamerule playersSleepingPercentage 100
 gamerule randomTickSpeed 3
 gamerule spawnRadius 50

@@ -1,6 +1,6 @@
 # Faster Despawn
 # Items at Age=6000 => 1200 ticks remaining = 1 minute
-execute as @e[type=item,tag=!FastDespawn,nbt={Age:0}] run data merge entity @s {Age:4800}
+execute as @e[type=item,tag=!FastDespawn,nbt={Age:0s}] run data merge entity @s {Age:4800}
 execute as @e[type=item,tag=!FastDespawn,nbt={Item:{id:"minecraft:egg"}}] run function oneheart:entities/item/egg
 tag @e[type=item,tag=!FastDespawn] add FastDespawn
 

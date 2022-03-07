@@ -1,11 +1,24 @@
 Transform striders riding other striders to piglins with crossbows
     possible?
 
+Piglin Bartering
+    Snowballs
 
-Add potions/golden apples to loot tables
-    Healing
-    Resistance
-    Turtle Master
-    Absorption
+Sheep performance
+    reduce nbt checks
 
-Blazes may only drop blazepowder sometimes instead
+Breed bees with carrots
+    Texture ✔
+    Sounds ✔
+        loop aggressive is buggy
+    Translations ✔
+        Advancements
+    Textures
+        Beenest/hive
+        Honeyblock
+        Honeyitems
+
+Structure tags
+
+Duplicated vanilly advancements
+    The City at the End of the Game
