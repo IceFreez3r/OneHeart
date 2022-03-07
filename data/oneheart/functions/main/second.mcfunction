@@ -6,6 +6,7 @@ function oneheart:blocks/magma_block/second
 function oneheart:custom/fire
 function oneheart:custom/swamp_water
 
+function oneheart:entities/bat
 function oneheart:entities/cow
 function oneheart:entities/enderman/second
 function oneheart:entities/ender_dragon
