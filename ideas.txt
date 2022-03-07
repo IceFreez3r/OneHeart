@@ -1,8 +1,6 @@
 Transform striders riding other striders to piglins with crossbows
     possible?
 
-Summon Hoglin when standing on a warped fungus
-    Warning
 
 Add potions/golden apples to loot tables
     Healing

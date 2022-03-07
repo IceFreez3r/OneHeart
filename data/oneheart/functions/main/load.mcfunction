@@ -24,6 +24,7 @@ scoreboard objectives add Sunburn dummy
 scoreboard objectives add SurviveOnSpawner dummy
 scoreboard objectives add SwampWater dummy
 scoreboard objectives add TotalHealth dummy
+scoreboard objectives add SummonHoglin dummy
 
 function oneheart:main/constant
 function oneheart:main/second

@@ -10,6 +10,7 @@ function oneheart:entities/cow
 function oneheart:entities/enderman/second
 function oneheart:entities/ender_dragon
 function oneheart:entities/fish
+function oneheart:entities/hoglin/second
 function oneheart:entities/piglin
 function oneheart:entities/polar_bear
 function oneheart:entities/rabbit/second
