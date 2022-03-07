@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:bedrock"
+            "item": "minecraft:magma_block"
         },
         "title": {
-            "translate": "advancements.oneheart.bedrock.title"
+            "translate": "advancements.oneheart.magma_block.title"
         },
         "description": {
-            "translate": "advancements.oneheart.bedrock.description"
+            "translate": "advancements.oneheart.magma_block.description"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "oneheart:magma_block",
+    "parent": "oneheart:die/1_time",
     "criteria": {
         "Sunburn": {
             "trigger": "minecraft:impossible"
