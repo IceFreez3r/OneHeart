@@ -6,7 +6,7 @@ function oneheart:blocks/bed/tick
 function oneheart:blocks/spawner/tick
 
 function oneheart:custom/sunburn/tick
-function oneheart:custom/void
+function oneheart:custom/void/tick
 
 function oneheart:entities/angry_mobs
 function oneheart:entities/arrow

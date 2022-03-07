@@ -18,6 +18,7 @@ scoreboard objectives add EndermanKills killed:enderman
 
 scoreboard objectives add Cooldown dummy
 scoreboard objectives add Daytime dummy
+scoreboard objectives add FallDistance dummy
 scoreboard objectives add Launch dummy
 scoreboard objectives add SleepTimer dummy
 scoreboard objectives add Sunburn dummy

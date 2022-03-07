@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {
+            "translate": "advancements.oneheart.fall_1000_blocks.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.fall_1000_blocks.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:teleport_up",
+    "criteria": {
+        "Fall": {
+            "trigger": "minecraft:fall_from_height",
+            "conditions": {
+                "player": [],
+                "distance": {
+                    "absolute": {
+                        "min": 1000
+                    }
+                }
+            }
+        }
+    }
+}
