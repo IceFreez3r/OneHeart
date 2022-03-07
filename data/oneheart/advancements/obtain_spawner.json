@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "title": {
+            "translate": "advancements.oneheart.obtain_spawner.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.obtain_spawner.description"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "oneheart:spawner",
+    "criteria": {
+        "Spawner": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:spawner"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
