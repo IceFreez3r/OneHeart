@@ -18,7 +18,7 @@ function oneheart:entities/glow_squid
 function oneheart:entities/husk
 function oneheart:entities/item/tick
 function oneheart:entities/burning/tick
-function oneheart:entities/sheep
+function oneheart:entities/sheep/tick
 function oneheart:entities/silverfish
 function oneheart:entities/squid
 function oneheart:entities/zombie
