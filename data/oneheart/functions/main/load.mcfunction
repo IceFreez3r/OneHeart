@@ -34,4 +34,4 @@ scoreboard objectives add SummonHoglin dummy
 function oneheart:main/constant
 function oneheart:main/second
 
-tellraw @a[gamemode=creative] {"translate":"oneheart.chat.reload"}
+tellraw @a[gamemode=creative] {"translate":"chat.oneheart.reload"}
