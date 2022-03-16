@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jukebox"
+        },
+        "title": {
+            "translate": "advancements.oneheart.pigstep.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.pigstep.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:kill/pig",
+    "criteria": {
+        "pigstep": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:music_disc_pigstep"
+                    ]
+                },
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:jukebox"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

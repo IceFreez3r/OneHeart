@@ -14,7 +14,7 @@
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "oneheart:root",
+    "parent": "oneheart:kill/all_pigs",
     "criteria": {
         "Pig": {
             "trigger": "minecraft:bred_animals",

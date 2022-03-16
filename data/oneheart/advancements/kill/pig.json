@@ -1,0 +1,128 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:porkchop"
+        },
+        "title": {
+            "translate": "advancements.oneheart.kill_pig.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.kill_pig.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:root",
+    "criteria": {
+        "pig": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:pig"
+                        }
+                    }
+                ]
+            }
+        },
+        "bee": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:bee"
+                        }
+                    }
+                ]
+            }
+        },
+        "hoglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:hoglin"
+                        }
+                    }
+                ]
+            }
+        },
+        "piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:piglin"
+                        }
+                    }
+                ]
+            }
+        },
+        "piglin_brute": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:piglin_brute"
+                        }
+                    }
+                ]
+            }
+        },
+        "zombified_piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:zombified_piglin"
+                        }
+                    }
+                ]
+            }
+        },
+        "zoglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:zoglin"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "pig",
+            "bee",
+            "hoglin",
+            "piglin",
+            "piglin_brute",
+            "zombified_piglin",
+            "zoglin"
+        ]
+    ]
+}
