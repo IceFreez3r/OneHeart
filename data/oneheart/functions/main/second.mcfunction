@@ -20,6 +20,7 @@ function oneheart:entities/slime
 function oneheart:entities/spider
 function oneheart:entities/villager
 function oneheart:entities/witch
+function oneheart:entities/wither
 
 execute as @a[gamemode=survival] run function oneheart:health/second
 
