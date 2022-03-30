@@ -13,7 +13,7 @@ function oneheart:entities/ender_dragon
 function oneheart:entities/fish
 function oneheart:entities/hoglin/second
 function oneheart:entities/piglin
-function oneheart:entities/polar_bear
+function oneheart:entities/polar_bear/second
 function oneheart:entities/rabbit/second
 function oneheart:entities/shulker/second
 function oneheart:entities/slime
