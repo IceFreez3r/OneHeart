@@ -1,0 +1,74 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:cookie"
+        },
+        "title": {
+            "translate": "advancements.oneheart.all_seeds.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.all_seeds.description"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "oneheart:root",
+    "criteria": {
+        "Seeds": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wheat_seeds"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:melon_seeds"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:pumpkin_seeds"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:beetroot_seeds"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:nether_wart"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:carrot"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:potato"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:sweet_berries"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:cocoa_beans"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "oneheart:custom/seedless_to_nay/schedule"
+    }
+}
