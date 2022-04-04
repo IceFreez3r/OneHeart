@@ -23,3 +23,5 @@ scoreboard objectives setdisplay list Health
 scoreboard objectives setdisplay belowName DeathCount
 
 tag @a add HealthChanged
+
+scoreboard players set %Initialized Initialized 1

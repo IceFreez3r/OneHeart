@@ -1,7 +1,9 @@
 # Runs every tick
+execute unless score %Initialized Initialized matches 1 run function oneheart:main/init
+execute as @a[tag=!UUIDStored] run function oneheart:main/store_uuid
+
 scoreboard players remove @e[scores={Cooldown=1..}] Cooldown 1
 
-function oneheart:blocks/bedrock
 function oneheart:blocks/bed/tick
 function oneheart:blocks/spawner/tick
 
