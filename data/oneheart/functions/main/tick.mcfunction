@@ -25,4 +25,6 @@ function oneheart:entities/silverfish
 function oneheart:entities/squid
 function oneheart:entities/zombie
 
+execute as @a unless score @s LeaveGame matches 0 run function oneheart:main/rejoin
+
 execute as @a[gamemode=survival] run function oneheart:health/tick
