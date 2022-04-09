@@ -14,27 +14,12 @@ Changes make the game either harder or just add random rules. It is intended, th
 
 As in the vanilla game, there is no big goal, that you need to achieve, but there are advancements, if you want some challenges.
 
-Suggested server.properties file 
+Suggested non-default server.properties settings:
 ```
-allow-nether=true
 difficulty=hard
-enable-command-block=true
-enable-status=true
-force-gamemode=false
-function-permission-level=2
-gamemode=survival
-generate-structures=true
-hardcore=false
 level-type=amplified
+# Unicode hearts in MOTD: ♥♡♡♡♡♡♡♡♡♡
 motd=\u00A7c\u2665\u2661\u2661\u2661\u2661\u2661\u2661\u2661\u2661\u2661
-pvp=true
-resource-pack=resource_packs/Oneheart.zip
-resource-pack-prompt=
-resource-pack-sha1=TODO
-require-resource-pack=false
-spawn-animals=true
-spawn-monsters=true
-spawn-npcs=true
 spawn-protection=0
 ```
 Use `level-type=default` to make the game easier. The datapack functions with both versions.
