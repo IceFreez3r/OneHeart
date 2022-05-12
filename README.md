@@ -22,6 +22,12 @@ level-type=amplified
 motd=\u00A7c\u2665\u2661\u2661\u2661\u2661\u2661\u2661\u2661\u2661\u2661
 spawn-protection=0
 ```
-Use `level-type=default` to make the game easier. The datapack functions with both versions.
+Use `level-type=default` to make the game easier. The datapack functions with every world generation.
 
-The associated resource pack isn't finished yet, but will probably be added to this repository, once it's done.
+## Resource pack
+### Singleplayer
+Move the resource pack to the resourcepack folder.
+### Multiplayer
+Either send a copy of it to all players or include it as a default resource pack of the server. Note that in the latter case the resource pack will only start loading, once the player joins the server. Meaning they will stand still without being able to move for a few seconds.
+## Easier version
+There is an easier version of the pack on the [`easy_mode`](https://github.com/IceFreez3r/OneHeart/tree/easy_mode) branch. It will include some slightly easier variations of some mechanics based on the feedback I get.
