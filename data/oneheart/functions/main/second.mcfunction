@@ -11,7 +11,7 @@ function oneheart:entities/bat
 function oneheart:entities/cow
 function oneheart:entities/enderman/second
 function oneheart:entities/ender_dragon
-function oneheart:entities/fish
+function oneheart:entities/fish/second
 function oneheart:entities/hoglin/second
 function oneheart:entities/piglin
 function oneheart:entities/polar_bear/second

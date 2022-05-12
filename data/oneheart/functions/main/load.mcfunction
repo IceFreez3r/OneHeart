@@ -22,6 +22,7 @@ scoreboard objectives add Daytime dummy
 scoreboard objectives add FallDistance dummy
 scoreboard objectives add Initialized dummy
 scoreboard objectives add Launch dummy
+scoreboard objectives add Settings dummy
 scoreboard objectives add SleepTimer dummy
 scoreboard objectives add Sunburn dummy
 scoreboard objectives add SurviveOnSpawner dummy
