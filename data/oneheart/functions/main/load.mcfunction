@@ -16,6 +16,7 @@ scoreboard objectives add DragonKills killed:ender_dragon
 scoreboard objectives add WitherKills killed:wither
 scoreboard objectives add EndermanKills killed:enderman
 
+scoreboard objectives add AngerTime dummy
 scoreboard objectives add Cooldown dummy
 scoreboard objectives add Daytime dummy
 scoreboard objectives add FallDistance dummy

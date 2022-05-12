@@ -10,7 +10,6 @@ function oneheart:blocks/spawner/tick
 function oneheart:custom/sunburn/tick
 function oneheart:custom/void/tick
 
-function oneheart:entities/angry_mobs
 function oneheart:entities/arrow/tick
 function oneheart:entities/axolotl/tick
 function oneheart:entities/creeper
