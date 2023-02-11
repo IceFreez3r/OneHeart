@@ -19,6 +19,8 @@ difficulty hard
 scoreboard players set %EndermanHealth EndermanKills 500
 scoreboard players set %EndermanHealthPlus EndermanKills 200
 
+scoreboard players set %PufferfishPercentage Settings 100
+
 scoreboard objectives setdisplay list Health
 scoreboard objectives setdisplay belowName DeathCount
 

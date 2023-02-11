@@ -1,8 +1,8 @@
 {
     "replace": true,
-    "__comment__": "Enderman are not in the list, because their Anger behaviour is buggy.",
     "values": [
         "minecraft:bee",
+        "minecraft:enderman",
         "minecraft:iron_golem",
         "minecraft:wolf",
         "minecraft:zombified_piglin"
