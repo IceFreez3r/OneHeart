@@ -1,1 +1,1 @@
-execute as @e[type=#arrows,nbt={inGround:1b}] run function oneheart:entities/arrow/explode
+execute as @e[type=#arrows,tag=!Processed] at @s run function oneheart:entities/arrow/check
