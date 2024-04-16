@@ -10,9 +10,7 @@
         "description": {
             "translate": "advancements.oneheart.kill_invisible_ghast.description"
         },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+        "frame": "challenge"
     },
     "parent": "oneheart:kill/invisible_spider",
     "criteria": {

@@ -1,6 +1,5 @@
-scoreboard players set %in1 math 0
-scoreboard players set %in2 math 30
-function math:lcg
-execute if score %out math matches 0 run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 air
+execute store result score %out math run random value 0..29
+execute unless score %out math matches 0 run return 0
 
-execute if score %out math matches 0 run advancement grant @s[advancements={oneheart:bedrock=false}] only oneheart:bedrock
+fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 air
+advancement grant @s[advancements={oneheart:bedrock=false}] only oneheart:bedrock

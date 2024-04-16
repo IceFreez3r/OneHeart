@@ -1,40 +1,40 @@
 {
-  "type": "minecraft:entity",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:entity",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:poppy"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 3,
-        "max": 5
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_nugget"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 0.0,
+                                "max": 2.0,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ],
+                    "name": "minecraft:poppy"
+                }
+            ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot"
+            "rolls": {
+                "min": 3,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,20 +1,2 @@
-attribute @s[scores={TotalHealth=1}] minecraft:generic.max_health base set 1
-attribute @s[scores={TotalHealth=2}] minecraft:generic.max_health base set 2
-attribute @s[scores={TotalHealth=3}] minecraft:generic.max_health base set 3
-attribute @s[scores={TotalHealth=4}] minecraft:generic.max_health base set 4
-attribute @s[scores={TotalHealth=5}] minecraft:generic.max_health base set 5
-attribute @s[scores={TotalHealth=6}] minecraft:generic.max_health base set 6
-attribute @s[scores={TotalHealth=7}] minecraft:generic.max_health base set 7
-attribute @s[scores={TotalHealth=8}] minecraft:generic.max_health base set 8
-attribute @s[scores={TotalHealth=9}] minecraft:generic.max_health base set 9
-attribute @s[scores={TotalHealth=10}] minecraft:generic.max_health base set 10
-attribute @s[scores={TotalHealth=11}] minecraft:generic.max_health base set 11
-attribute @s[scores={TotalHealth=12}] minecraft:generic.max_health base set 12
-attribute @s[scores={TotalHealth=13}] minecraft:generic.max_health base set 13
-attribute @s[scores={TotalHealth=14}] minecraft:generic.max_health base set 14
-attribute @s[scores={TotalHealth=15}] minecraft:generic.max_health base set 15
-attribute @s[scores={TotalHealth=16}] minecraft:generic.max_health base set 16
-attribute @s[scores={TotalHealth=17}] minecraft:generic.max_health base set 17
-attribute @s[scores={TotalHealth=18}] minecraft:generic.max_health base set 18
-attribute @s[scores={TotalHealth=19}] minecraft:generic.max_health base set 19
-attribute @s[scores={TotalHealth=20}] minecraft:generic.max_health base set 20
+# :param max_health - The new max health value.
+$attribute @s minecraft:generic.max_health base set $(max_health)

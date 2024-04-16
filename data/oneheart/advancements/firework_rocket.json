@@ -9,21 +9,12 @@
         "description": {
             "translate": "advancements.oneheart.firework_rocket.description"
         },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true
+        "frame": "task"
     },
     "parent": "oneheart:root",
     "criteria": {
         "KillWithRocket": {
-            "trigger": "minecraft:player_hurt_entity",
-            "conditions": {
-                "damage": {
-                    "source_entity": {
-                        "type": "minecraft:firework_rocket"
-                    }
-                }
-            }
+            "trigger": "impossible"
         }
     }
 }

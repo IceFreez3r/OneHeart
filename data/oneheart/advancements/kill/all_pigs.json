@@ -9,9 +9,7 @@
         "description": {
             "translate": "advancements.oneheart.kill_all_pigs.description"
         },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+        "frame": "goal"
     },
     "parent": "oneheart:kill/pig",
     "criteria": {

@@ -1,37 +1,27 @@
 {
-  "parent": "minecraft:end/root",
-  "display": {
-    "icon": {
-      "item": "minecraft:dragon_egg"
+    "parent": "minecraft:end/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
+        "title": {
+            "translate": "advancements.end.dragon_egg.title"
+        },
+        "description": {
+            "translate": "advancements.end.dragon_egg.description"
+        },
+        "frame": "goal"
     },
-    "title": {
-      "translate": "advancements.end.dragon_egg.title"
-    },
-    "description": {
-      "translate": "advancements.end.dragon_egg.description"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "dragon_egg": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:dragon_egg"
-            ]
-          }
-        ]
-      }
+    "criteria": {
+        "dragon_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:dragon_egg"]
+                    }
+                ]
+            }
+        }
     }
-  },
-  "requirements": [
-    [
-      "dragon_egg"
-    ]
-  ]
 }

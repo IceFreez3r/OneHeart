@@ -10,9 +10,7 @@
         "description": {
             "translate": "advancements.oneheart.die_10_times.description"
         },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true
+        "frame": "task"
     },
     "parent": "oneheart:die/1_time",
     "criteria": {

@@ -9,9 +9,7 @@
         "description": {
             "translate": "advancements.oneheart.all_seeds.description"
         },
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true
+        "frame": "goal"
     },
     "parent": "oneheart:root",
     "criteria": {
@@ -67,6 +65,11 @@
                     {
                         "items": [
                             "minecraft:glow_berries"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:torchflower_seeds"
                         ]
                     }
                 ]

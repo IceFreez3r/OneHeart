@@ -9,9 +9,7 @@
         "description": {
             "translate": "advancements.oneheart.fall_1000_blocks.description"
         },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true
+        "frame": "challenge"
     },
     "parent": "oneheart:teleport_up",
     "criteria": {

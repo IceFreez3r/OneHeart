@@ -9,9 +9,7 @@
         "description": {
             "translate": "advancements.oneheart.magma_block.description"
         },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true
+        "frame": "task"
     },
     "parent": "oneheart:die/1_time",
     "criteria": {

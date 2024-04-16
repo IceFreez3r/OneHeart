@@ -9,9 +9,7 @@
         "description": {
             "translate": "advancements.oneheart.kill_enderman.description"
         },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true
+        "frame": "task"
     },
     "parent": "oneheart:root",
     "criteria": {

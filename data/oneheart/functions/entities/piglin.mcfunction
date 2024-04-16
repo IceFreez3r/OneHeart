@@ -3,4 +3,4 @@ execute as @e[type=piglin,nbt={HandItems:[{id:"minecraft:golden_sword"}]},tag=!K
 execute as @e[type=piglin,nbt={HandItems:[{id:"minecraft:golden_sword"}]},tag=!Knockback] run attribute @s minecraft:generic.knockback_resistance base set 1
 execute as @e[type=piglin,nbt={HandItems:[{id:"minecraft:golden_sword"}]},tag=!Knockback] run tag @s add Knockback
 
-# (Crossbow Piglins have explosive arrows)
+# (Crossbow Piglins have firework arrows)

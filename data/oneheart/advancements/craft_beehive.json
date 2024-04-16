@@ -9,22 +9,14 @@
         "description": {
             "translate": "advancements.oneheart.craft_beehive.description"
         },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true
+        "frame": "task"
     },
     "parent": "oneheart:kill/pig",
     "criteria": {
         "Pighive": {
-            "trigger": "minecraft:inventory_changed",
+            "trigger": "minecraft:recipe_crafted",
             "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:beehive"
-                        ]
-                    }
-                ]
+                "recipe_id": "minecraft:beehive"
             }
         }
     }

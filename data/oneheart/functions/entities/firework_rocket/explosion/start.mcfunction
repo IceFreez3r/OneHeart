@@ -1,18 +1,9 @@
 # Trail
-scoreboard players set %in1 math 0
-scoreboard players set %in2 math 2
-function math:lcg
-execute store result storage oneheart fireworkrocket.explosion.Trail byte 1 run scoreboard players get %out math
+execute store result storage oneheart fireworkrocket.explosion.Trail byte 1 run random value 0..1
 # Flicker
-scoreboard players set %in1 math 0
-scoreboard players set %in2 math 2
-function math:lcg
-execute store result storage oneheart fireworkrocket.explosion.Flicker byte 1 run scoreboard players get %out math
+execute store result storage oneheart fireworkrocket.explosion.Flicker byte 1 run random value 0..1
 # Type
-scoreboard players set %in1 math 0
-scoreboard players set %in2 math 5
-function math:lcg
-execute store result storage oneheart fireworkrocket.explosion.Type int 1 run scoreboard players get %out math
+execute store result storage oneheart fireworkrocket.explosion.Type int 1 run random value 0..4
 
 # Colors
 data modify storage oneheart colors set value [I;]

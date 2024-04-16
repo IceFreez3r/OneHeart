@@ -1,5 +1,2 @@
-scoreboard players set %in1 math 0
-scoreboard players set %in2 math 17
-function math:lcg
-execute store result entity @s Color byte 1 run scoreboard players get %out math
+execute store result entity @s Color byte 1 run random value 0..16
 tag @s add Colored

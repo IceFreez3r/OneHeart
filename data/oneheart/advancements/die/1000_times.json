@@ -11,8 +11,6 @@
             "translate": "advancements.oneheart.die_1000_times.description"
         },
         "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
         "hidden": true
     },
     "parent": "oneheart:die/100_times",

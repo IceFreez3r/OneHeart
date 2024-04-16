@@ -1,17 +1,6 @@
-scoreboard players set %in1 math 1
-scoreboard players set %in2 math 5
-function math:lcg
-scoreboard players operation .explosions FireworkRockets = %out math
-
-scoreboard players set %in1 math 1
-scoreboard players set %in2 math 4
-function math:lcg
-scoreboard players operation .colors FireworkRockets = %out math
-
-scoreboard players set %in1 math 0
-scoreboard players set %in2 math 4
-function math:lcg
-scoreboard players operation .fadecolors FireworkRockets = %out math
+execute store result score .explosions FireworkRockets run random value 1..4
+execute store result score .colors FireworkRockets run random value 1..3
+execute store result score .fadecolors FireworkRockets run random value 0..3
 
 function oneheart:entities/firework_rocket/flight
 function oneheart:entities/firework_rocket/explosion/start

@@ -10,8 +10,6 @@
             "translate": "advancements.oneheart.flower.description"
         },
         "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
         "hidden": true
     },
     "parent": "oneheart:armor/netherite",
