@@ -21,6 +21,7 @@ function oneheart:entities/sniffer/second
 function oneheart:entities/slime
 function oneheart:entities/spider
 function oneheart:entities/villager
+function oneheart:entities/warden
 function oneheart:entities/witch
 function oneheart:entities/wither
 
