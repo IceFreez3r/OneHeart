@@ -6,6 +6,7 @@ scoreboard players remove @e[scores={Cooldown=1..}] Cooldown 1
 
 function oneheart:blocks/bed/tick
 function oneheart:blocks/spawner/tick
+function oneheart:blocks/reinforced_deepslate
 
 function oneheart:custom/sunburn/tick
 function oneheart:custom/void/tick
