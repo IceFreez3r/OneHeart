@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mud"
+        },
+        "title": {
+            "translate": "advancements.oneheart.mud_to_mud.title"
+        },
+        "description": {
+            "translate": "advancements.oneheart.mud_to_mud.description"
+        },
+        "frame": "task"
+    },
+    "parent": "oneheart:craft_beehive",
+    "criteria": {
+        "convert_mud": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

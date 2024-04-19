@@ -5,6 +5,7 @@ execute as @a[tag=!UUIDStored] run function oneheart:main/store_uuid
 scoreboard players remove @e[scores={Cooldown=1..}] Cooldown 1
 
 function oneheart:blocks/bed/tick
+function oneheart:blocks/honey_block/tick
 function oneheart:blocks/spawner/tick
 function oneheart:blocks/mud
 function oneheart:blocks/reinforced_deepslate

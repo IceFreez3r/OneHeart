@@ -21,6 +21,7 @@ scoreboard objectives add Cooldown dummy
 scoreboard objectives add Daytime dummy
 scoreboard objectives add FallDistance dummy
 scoreboard objectives add FireworkRockets dummy
+scoreboard objectives add HoneyBlockRay dummy
 scoreboard objectives add Initialized dummy
 scoreboard objectives add Launch dummy
 scoreboard objectives add Random dummy
