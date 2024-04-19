@@ -11,6 +11,7 @@ function oneheart:blocks/reinforced_deepslate
 function oneheart:custom/sunburn/tick
 function oneheart:custom/void/tick
 
+function oneheart:entities/allay/tick
 function oneheart:entities/arrow/tick
 function oneheart:entities/axolotl/tick
 function oneheart:entities/creeper

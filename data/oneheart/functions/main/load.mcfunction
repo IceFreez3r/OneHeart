@@ -23,6 +23,7 @@ scoreboard objectives add FallDistance dummy
 scoreboard objectives add FireworkRockets dummy
 scoreboard objectives add Initialized dummy
 scoreboard objectives add Launch dummy
+scoreboard objectives add Random dummy
 scoreboard objectives add SleepTimer dummy
 scoreboard objectives add SnifferDig dummy
 scoreboard objectives add SummonHoglin dummy
