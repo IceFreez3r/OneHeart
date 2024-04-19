@@ -8,6 +8,7 @@ function oneheart:custom/swamp_water
 
 function oneheart:entities/angry_mobs
 function oneheart:entities/bat
+function oneheart:entities/bee
 function oneheart:entities/cow
 function oneheart:entities/enderman/second
 function oneheart:entities/ender_dragon
