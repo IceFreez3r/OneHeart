@@ -16,10 +16,12 @@
         "Void": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "position": {
-                        "y": {
-                            "max": -64
+                "player": {
+                    "location": {
+                        "position": {
+                            "y": {
+                                "max": -64
+                            }
                         }
                     }
                 }
