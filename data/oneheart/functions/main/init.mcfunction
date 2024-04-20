@@ -21,8 +21,8 @@ scoreboard players set %EndermanHealthPlus EndermanKills 200
 
 scoreboard players set %PufferfishPercentage Settings 100
 
-scoreboard objectives setdisplay list Health
-scoreboard objectives setdisplay below_name DeathCount
+scoreboard objectives setdisplay below_name Health
+scoreboard objectives setdisplay sidebar DeathCount
 
 tag @a add HealthChanged
 
